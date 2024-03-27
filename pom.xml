@@ -17,20 +17,6 @@
         </dependency>
     </dependencies>
 
-    <repositories>
-        <repository>
-            <id>repo-a</id>
-            <url>https://repository.apache.org/content/repositories/snapshots/</url>
-            <releases>
-                <enabled>false</enabled>
-            </releases>
-            <snapshots>
-                <enabled>true</enabled>
-                <updatePolicy>daily</updatePolicy>
-            </snapshots>
-        </repository>
-    </repositories>
-
     <profiles>
         <profile>
             <id>profile-a</id>
